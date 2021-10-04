@@ -12,7 +12,7 @@ Ukrainian
 
 # How to use Google SpreedSheets.
 1. Create new Google SpreedSheets.
-2. Public your table to all (File > Public On Internet).
+2. Public your table to all (File > Public On Web).
 3. Add table structure (like an Example - https://docs.google.com/spreadsheets/d/15q8896q5FambSL0j9NVwpzRagoN9hKPWrBwO4ph4V30/edit).
 4. Go to Tools > Script editor.
 5. Copy code from api-example.gs (if you have a structure different from the one in the table, you need to make changes to the field mapping in js) code to your file in Script editor.
