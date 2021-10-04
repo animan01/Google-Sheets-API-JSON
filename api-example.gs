@@ -1,4 +1,9 @@
 /**
+ * @author Volodymyr Melnychuk <540991@i.ua>
+ * https://github.com/animan01
+ */
+
+/**
  * Base method for getting info from Google SpreadSheet.
  *
  * @return {{ss: *, apiExample: *}}
