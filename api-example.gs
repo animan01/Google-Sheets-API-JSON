@@ -3,8 +3,7 @@
  *
  * @return {{ss: *, apiExample: *}}
  */
-function prepareGsData() {
-  let gsUrl = 'https://docs.google.com/spreadsheets/d/15q8896q5FambSL0j9NVwpzRagoN9hKPWrBwO4ph4V30/edit#gid=0';
+function prepareGsData(gsUrl) {
   // Get all data from Google SpreadSheet.
   let ss = SpreadsheetApp.openByUrl(gsUrl);
   let apiExample = ss.getSheetByName("API-example");
@@ -22,8 +21,10 @@ function prepareGsData() {
  *   Return Json with trade-in devices data.
  */
 function doGet() {
+  // Public Google spreadsheets URL.
+  let gsUrl = 'https://docs.google.com/spreadsheets/d/15q8896q5FambSL0j9NVwpzRagoN9hKPWrBwO4ph4V30/edit';
   // Prepering GS data.
-  let gsData = prepareGsData();
+  let gsData = prepareGsData(gsUrl);
 
   // Load data in the object.
   let apiExampleData = getApiExampleData(gsData.apiExample, gsData.ss);

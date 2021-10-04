@@ -12,11 +12,12 @@ Ukrainian
 
 # How to use Google SpreedSheets.
 1. Create new Google SpreedSheets.
-2. Add table structure (like an Example - https://docs.google.com/spreadsheets/d/15q8896q5FambSL0j9NVwpzRagoN9hKPWrBwO4ph4V30/edit).
-3. Go to Tools > Script editor.
-4. Copy code from api-example.gs (if you have a structure different from the one in the table, you need to make changes to the field mapping in js) code to your file in Script editor.
-5. When you hit the run button for the first time, you will be prompted to authorize the app to run.
-6. Make Deploy with Web Application, and you can use this solution (example url - https://script.google.com/macros/s/AKfycbyJMp42_TcJ0w9vhmOmPfazt9nWDnfJpQQdpJk2Z_Dd54U2UaMoij9261IcJwF4iDCl/exec).
+2. Public your table to all (File > Public On Internet).
+3. Add table structure (like an Example - https://docs.google.com/spreadsheets/d/15q8896q5FambSL0j9NVwpzRagoN9hKPWrBwO4ph4V30/edit).
+4. Go to Tools > Script editor.
+5. Copy code from api-example.gs (if you have a structure different from the one in the table, you need to make changes to the field mapping in js) code to your file in Script editor.
+6. When you hit the run button for the first time, you will be prompted to authorize the app to run.
+7. Make Deploy with Web Application, and you can use this solution (example url - https://script.google.com/macros/s/AKfycbyJMp42_TcJ0w9vhmOmPfazt9nWDnfJpQQdpJk2Z_Dd54U2UaMoij9261IcJwF4iDCl/exec).
 
 # Links
 
